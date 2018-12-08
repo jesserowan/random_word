@@ -1,0 +1,61 @@
+* {
+    margin: 0px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topbar {
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgb(216, 204, 172), rgb(190, 162, 116));
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    margin: auto 20px;
+    color: rgb(255, 255, 255);
+}
+.reset {
+    margin: auto 20px auto 0px;
+    border: 2px solid rgba(121, 58, 29, 0.438);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-image: inherit;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px rgb(68, 38, 13);
+    text-decoration: none;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text {
+    margin-top: 30px;
+}
+.wordbox {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.generate {
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid rgba(121, 58, 29, 0.438);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(216, 204, 172), rgb(190, 162, 116));
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px rgb(68, 38, 13);
+    text-decoration: none;
+}
+.word {
+    padding: 30px 0px;
+    border: 2px solid rgba(22, 7, 2, 0.568);
+    width: 400px;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(255, 233, 214), rgb(255, 246, 230));
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 1px rgb(68, 38, 13);
+    
+}

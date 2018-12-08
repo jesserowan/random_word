@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'myapp/css/style.css' %}">
+    <title>Random Word Generator</title>
+</head>
+<body>
+    <div class="topbar">
+        <h1 class="header">
+            Random Words!
+        </h1>
+        <a name="reset" class="reset" href="random_word/reset">Reset</a>
+    </div>
+    <div class="main">
+        <h2 class="text">
+            Random Word (attempt #{{request.session.counter}})
+        </h2>
+        <div class="wordbox">
+            <h2 class="word">
+                {{word}}
+            </h2>
+            <a name="generate" class="generate" href="">Generate</a>
+        </div>
+    </div>
+</body>
+</html>
